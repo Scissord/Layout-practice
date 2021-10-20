@@ -1,0 +1,57 @@
+.header {
+    padding-top: 17px;
+    padding-bottom: 17px;
+    border-bottom: 1px solid #D6D6D6;
+}
+
+.header-row {
+    display: flex;
+    align-items: center;
+}
+
+.header-logo {
+    max-width: 120px;
+    max-height: 120px;
+}
+
+.header-nav {
+    font-weight: 500;
+    color: #292929;
+    margin-left: 172px;
+}
+
+.header-nav ul {
+    display: flex;
+}
+
+.header-nav li + li {
+    margin-left: 70px;
+}
+
+.header-nav a {
+    transition: color 0.2s ease;
+}
+
+.header-nav a:hover {
+    color: red;
+}
+
+.header-login {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header-login > * + * {
+    margin-left: 35px;
+}
+
+.header-login-link {
+    color: black;
+    transition: color 0.2s ease;
+}
+
+.header-login a:hover {
+    color: red;
+}
+
