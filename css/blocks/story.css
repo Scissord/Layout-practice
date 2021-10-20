@@ -1,0 +1,52 @@
+.story {
+    background-color: orangered;
+    padding: 229px 0 176px;
+    color: black;
+}
+
+.story-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.story-content {
+    margin-right: 30px;
+}
+
+.story-heading {
+    font-size: 50px;
+    line-height: 157%;
+    font-weight: 700;
+    font-family: 'Georgia', serif;
+}
+
+.story-heading + * {
+  margin-top: 33px;
+}
+
+.story-text {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 157%;
+}
+
+.story-text + * {
+    margin-top: 57px;
+}
+
+.story-btn {
+    display: flex;
+}
+
+.btn {
+
+}
+
+.btn-big {
+
+}
+
+.story-video {
+
+}
