@@ -14,6 +14,9 @@
     <link rel="stylesheet" href="./css/blocks/btn.css">
     <link rel="stylesheet" href="./css/blocks/how-it-works.css">
     <link rel="stylesheet" href="./css/blocks/story.css">
+    <link rel="stylesheet" href="./css/blocks/product.css">
+    <link rel="stylesheet" href="./css/blocks/card.css">
+    <link rel="stylesheet" href="./css/blocks/avatar.css">
     <!-- Шрифты -->
     <link rel="stylesheet" href="./css/fonts/Georgia/stylesheet.css">
     <link rel="stylesheet" href="./css/fonts/Lato/stylesheet.css">
@@ -125,19 +128,67 @@
             </div>
         </section>
 
-        <section>
-            <div class="container">
+        <section class="story none">
+            <div class="container container-wide">
                 <div class="story-row">
                     <div class="story-content">
-                        <div class="story-heading"></div>
+                        <h2 class="story-heading">Let's hear some stories</h2>
                         <div class="story-text">
-                            <p></p>
+                            <p>See how out product works irl</p>
                         </div>
                         <div class="story-btn">
-                            <a class="btn btn-big" href="#"></a>
+                            <a class="btn btn-big" href="#">Let's get started</a>
                         </div>
                     </div>
-                    <div class="story-video">VIDEO</div>
+                    <div class="story-video">
+                        <div class="story-video-overlay"></div>
+                            <button class="story-video-btn">
+                                <img src="./img/story-video-icon.png" alt="Play">
+                            </button>
+                        <img src="./img/story-video-img.jpg" alt="Video" class="story-video-object">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product">
+            <div class="container">
+                <div class="product-row">
+                    <div class="product-img-wrapper">
+                        <img src="./img/product-img.png" alt="Product image" class="product-img">
+                        <div class="product-card">
+                            <div class="card">
+                                <h3 class="card-title">Customized For</h3>
+                                <div class="card-avatar">
+                                    <div class="avatar">
+                                        <img src="./img/product-img-mini.png" alt="Avatar" class="avatar-img">  
+                                        <h4 class="avatar-name">Name</h4> 
+                                    </div>
+                                </div> 
+                                <div class="card-contents">
+                                    <h3 class="card-contents-title"></h3>
+                                    <ul>
+                                        <li>Understand Your stress</li>
+                                        <li>Anger Manager</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-content">
+                        <h2 class="product-content-title">Out product</h2>
+                        <h3 class="product-content-subtitle">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                        <div class="product-content-text">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Fuga in officia placeat harum sunt vero, eum aspernatur 
+                                earum voluptatibus accusamus.
+                            </p>
+                        </div>
+                        <div class="product-content-btn">
+                            <a href="#" class="btn btn-big">Find Your Way</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
