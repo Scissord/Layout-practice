@@ -1,23 +1,21 @@
 .card {
     width: 296px;
-    height: 293px;
     background-color: white;
     border-radius: 4px;  
     box-shadow: 0px 3.62249px 18.1125px rgba(165, 165, 165, 0.25);
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 28px, 20px, 30px;
+    padding: 28px 20px 30px;
 }
 
 .card-title {
-    padding-top: 50px;
     position: relative;
     font-weight: 600;
     font-size: 14px;
     line-height: 1;
-    padding-bottom: 6px;
-    margin-bottom: 7px;
+    padding-bottom: 12px;
+    margin-bottom: 13px;
 }
 
 .card-title::after {
@@ -30,10 +28,28 @@
     bottom: 0px;
 }
 
-.card-contents {
+.card-avatar {
+    margin-bottom: 25px;
+}
 
+.card-contents {
+    text-align: left;
+    padding-left: 6px;;
 }
 
 .card-contents-title{
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    margin-bottom: 22px;
+    font-weight: 700;
+}
 
+.card ul {
+    font-size: 10.62px;
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+.card ul li + li {
+    margin-top: 20px;
 }

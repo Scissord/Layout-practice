@@ -8,6 +8,7 @@
     height: 57px;
     border-radius: 50%;
     object-fit: cover;
+    background-color: rgba(168, 9, 9, 0.438);
 }
 
 .avatar-name {
